@@ -1,0 +1,56 @@
+{
+	"_type": "Project",
+	"_id": "AAAAAAFF+h6SjaM2Hec=",
+	"name": "Souvenirs",
+	"ownedElements": [
+		{
+			"_type": "UMLModel",
+			"_id": "AAAAAAFF+qBWK6M3Z8Y=",
+			"_parent": {
+				"$ref": "AAAAAAFF+h6SjaM2Hec="
+			},
+			"name": "Model",
+			"ownedElements": [
+				{
+					"_type": "UMLClassDiagram",
+					"_id": "AAAAAAFF+qBtyKM79qY=",
+					"_parent": {
+						"$ref": "AAAAAAFF+qBWK6M3Z8Y="
+					},
+					"name": "Main",
+					"visible": true,
+					"defaultDiagram": true
+				}
+			],
+			"visibility": "public"
+		},
+		{
+			"_type": "ERDDataModel",
+			"_id": "AAAAAAFYvxVFGJz6VNM=",
+			"_parent": {
+				"$ref": "AAAAAAFF+h6SjaM2Hec="
+			},
+			"name": "Database",
+			"ownedElements": [
+				{
+					"_type": "ERDDiagram",
+					"_id": "AAAAAAFYvxVFGZz72LY=",
+					"_parent": {
+						"$ref": "AAAAAAFYvxVFGJz6VNM="
+					},
+					"name": "ERDDiagram1",
+					"visible": true,
+					"defaultDiagram": false
+				},
+				{
+					"_type": "ERDEntity",
+					"_id": "AAAAAAFYvxWWgJ0A8aA=",
+					"_parent": {
+						"$ref": "AAAAAAFYvxVFGJz6VNM="
+					},
+					"name": "用户"
+				}
+			]
+		}
+	]
+}
